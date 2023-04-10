@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "1",
+    "image": "https://i.ibb.co/PzjFYrC/google-1-1-1.png",
+    "job_name": "Technical Database Engineer",
+    "job_title": "Google LLC",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  },
+  {
+    "_id": "2",
+    "image": "https://i.ibb.co/Xj3wbPy/netflix-4-1.png",
+    "job_name": "Senior Product Designer",
+    "job_title": "Netflix",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  },
+  {
+    "_id": "3",
+    "image": "https://i.ibb.co/KxC5WjV/tesla-9-1.png",
+    "job_name": "Software Engineer",
+    "job_title": "Tesla",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  },
+  {
+    "_id": "4",
+    "image": "https://i.ibb.co/bKLVfsQ/Group-10021.png",
+    "job_name": "Technical Database Engineer",
+    "job_title": "Google LLC",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  },
+  {
+    "_id": "5",
+    "image": "https://i.ibb.co/YXgJxwr/download.png",
+    "job_name": "facebook marketing",
+    "job_title": "Social Networking Service",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  },
+  {
+    "_id": "6",
+    "image": "https://i.ibb.co/spSd5Ld/Download-2.png",
+    "job_name": "Engineering Job",
+    "job_title": "Twitter",
+    "location": "Dhaka, Bangladesh",
+    "location_logo": "https://i.ibb.co/TqXj9Kw/Frame-4.png",
+    "salary_logo": "https://i.ibb.co/YT7mN5g/Frame.png",
+    "salary": "100K - 150K"
+  }
+]
