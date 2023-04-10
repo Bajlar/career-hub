@@ -2,41 +2,41 @@
   {
     "_id": "1",
     "assignment": "1",
-    "marks": "57"
+    "mark": "57"
   },
   {
     "_id": "2",
     "assignment": "2",
-    "marks": "60"
+    "mark": "60"
   },
   {
     "_id": "3",
     "assignment": "3",
-    "marks": "60"
+    "mark": "60"
   },
   {
     "_id": "4",
     "assignment": "4",
-    "marks": "56"
+    "mark": "56"
   },
   {
     "_id": "5",
     "assignment": "5",
-    "marks": "51"
+    "mark": "51"
   },
   {
     "_id": "6",
     "assignment": "6",
-    "marks": "56"
+    "mark": "56"
   },
   {
     "_id": "7",
     "assignment": "7",
-    "marks": "60"
+    "mark": "60"
   },
   {
     "_id": "8",
     "assignment": "8",
-    "marks": "59"
+    "mark": "59"
   }
 ]
