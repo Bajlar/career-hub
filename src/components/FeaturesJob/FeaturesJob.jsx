@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleFeature from '../SingleFeature/SingleFeature';
 
@@ -7,6 +7,11 @@ const FeaturesJob = () => {
   // console.log(featuresJob);
 
   const [details, setDetails] = featuresJob;
+  const [showAll, setShowAll] = useState(false);
+
+  const handleSeeMore = () => {
+    setShowAll(true)
+  }
 
   const handleDetails = (featuresJob) => {
     // console.log('btn click'); 
@@ -24,7 +29,7 @@ const FeaturesJob = () => {
       </p>
       <div className='grid md:grid-cols-2 gap-5 mt-5'>
         {
-          featuresJob.map(feature => <SingleFeature
+          featuresJob.slice(0, showAll ? 6 : 4).map(feature => <SingleFeature
             key={feature._id}
             feature={feature}
             handleDetails={handleDetails}
@@ -32,7 +37,11 @@ const FeaturesJob = () => {
         }
       </div>
       <div className="text-center">
-        <button className="btn btn-primary mt-8">See All Jobs</button>
+        {
+          !showAll && (
+            <button onClick={handleSeeMore} className="btn btn-primary mt-8">See All Jobs</button>
+          )
+        }
       </div>
     </div>
   );
