@@ -10,7 +10,8 @@ const FeaturesJob = () => {
   const [details, setDetails] = featuresJob;
 
   const handleDetails = (featuresJob) => {
-    console.log('btn click');
+    console.log('btn click'); 
+    
     // console.log(featuresJob);
     // const newDetails = [...details, featuresJob];
     // setDetails(newDetails);

@@ -15,10 +15,10 @@ const Statistics = () => {
             height={400}
             data={marks}
           >
-            <XAxis dataKey="name" />
+            <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
+            <XAxis dataKey="assignment" />
             <YAxis />
             <Tooltip />
-            <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
           </AreaChart>
         </div>
       </div>

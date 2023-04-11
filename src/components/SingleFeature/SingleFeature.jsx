@@ -6,7 +6,7 @@ const SingleFeature = ({feature, handleDetails}) => {
 
   const {image, job_name, job_title, location, location_logo, salary, salary_logo, _id} = feature;
   return (
-    <div className="card w-full h-96 bg-base-100 shadow-xl mt-8">
+    <div className="card w-full h-96 border-solid border-2 py-5 mt-8">
       <figure className="">
         <img src={image} alt="" className="rounded-xl" />
       </figure>
