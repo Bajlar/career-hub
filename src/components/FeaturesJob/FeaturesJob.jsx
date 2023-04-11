@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleFeature from '../SingleFeature/SingleFeature';
 
@@ -9,9 +10,10 @@ const FeaturesJob = () => {
   const [details, setDetails] = featuresJob;
 
   const handleDetails = (featuresJob) => {
+    console.log('btn click');
     // console.log(featuresJob);
-    const newDetails = [...details, featuresJob];
-    setDetails(newDetails);
+    // const newDetails = [...details, featuresJob];
+    // setDetails(newDetails);
   }
 
   return (
@@ -34,4 +36,4 @@ const FeaturesJob = () => {
   );
 };
 
-export default FeaturesJob;
+export default FeaturesJob; 
