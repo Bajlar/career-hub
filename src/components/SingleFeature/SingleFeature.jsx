@@ -1,7 +1,9 @@
 import React from 'react';
 
-const SingleFeature = ({feature}) => {
+const SingleFeature = ({feature, handleDetails}) => {
   // console.log(feature);
+  // console.log(handleDetails);
+
   const {image, job_name, job_title, location, location_logo, salary, salary_logo, _id} = feature;
   return (
     <div className="card w-full h-96 bg-base-100 shadow-xl mt-8">
@@ -26,7 +28,7 @@ const SingleFeature = ({feature}) => {
           </div>
         </div>
         <div className="card-actions">
-          <button className="btn btn-primary">View Details</button>
+          <button onClick={() => handleDetails(feature)} className="btn btn-primary">View Details</button>
         </div>
       </div>
     </div>
