@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleFeature from '../SingleFeature/SingleFeature';
@@ -10,9 +9,9 @@ const FeaturesJob = () => {
   const [details, setDetails] = featuresJob;
 
   const handleDetails = (featuresJob) => {
-    console.log('btn click'); 
+    // console.log('btn click'); 
     
-    // console.log(featuresJob);
+    console.log(featuresJob);
     // const newDetails = [...details, featuresJob];
     // setDetails(newDetails);
   }
@@ -32,7 +31,9 @@ const FeaturesJob = () => {
           ></SingleFeature>)
         }
       </div>
-      <button className="btn btn-primary mt-8">See All Jobs</button>
+      <div className="text-center">
+        <button className="btn btn-primary mt-8">See All Jobs</button>
+      </div>
     </div>
   );
 };
