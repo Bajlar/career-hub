@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <div className='mt-5'>
-      <h2 className='text-2xl font-bold'>Blog page</h2>
+    <div className='w-10/12 mx-auto mt-5'>
+      <h2 className='text-2xl text-center font-bold'>Blog page</h2>
       <div className="card w-full">
         <div className="card-body">
           <div className="mb-4 bg-base-200 shadow-xl p-5 rounded-md">

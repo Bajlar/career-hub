@@ -11,9 +11,9 @@ const JobCategoryList = () => {
   }, [])
 
   return (
-    <div className='mt-20'>
-      <h2 className='text-5xl text-[#1A1919] font-bold'>Job Category List</h2>
-      <p className='text-[#757575] mt-4'>
+    <div className='w-10/12 mx-auto'>
+      <h2 className='text-5xl text-[#1A1919] text-center font-bold'>Job Category List</h2>
+      <p className='text-[#757575] text-center mt-4'>
         Explore thousands of job opportunities with all the information you need. Its your future
       </p>
       <div className="job-container mt-8 grid md:grid-cols-4 gap-4">
