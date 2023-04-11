@@ -49,7 +49,7 @@ const Statistics = () => {
     }
   ]
   return (
-    <div className='mt-8'>
+    <div className='mt-5'>
       <h2 className='text-2xl font-bold mb-5'>Statistics</h2>
       <AreaChart
         width={400}
