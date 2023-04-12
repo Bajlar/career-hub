@@ -11,4 +11,4 @@ Online job apply method
 2. Tailwind CSS Framework
 3. daisyUI
 
-# site link: 
+# site link: https://incomparable-horse-4798fc.netlify.app

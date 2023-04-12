@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="w-10/12 mx-auto navbar bg-base-100 mt-3">
+    <div className="w-10/12 mx-auto navbar mt-3">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,3 +34,5 @@ const Header = () => {
 };
 
 export default Header;
+
+//  bg-base-100
