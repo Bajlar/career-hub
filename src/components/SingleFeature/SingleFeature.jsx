@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const SingleFeature = ({feature, handleDetails}) => {
+const SingleFeature = ({feature}) => {
   // console.log(feature);
-  // console.log(handleDetails);
 
-  const {image, job_name, job_title, location, location_logo, salary, salary_logo, _id} = feature;
+  const {image, job_name, job_title, location, location_logo, salary, salary_logo, id} = feature;
   return (
     <div className="card w-full h-96 border-solid border-2 py-5 mt-8">
       <figure className="">
@@ -28,7 +28,7 @@ const SingleFeature = ({feature, handleDetails}) => {
           </div>
         </div>
         <div className="card-actions">
-          <button onClick={() => handleDetails(feature)} className="btn btn-primary">View Details</button>
+          <Link to={`/job/${id}`}><button className="btn btn-primary">View Details</button></Link>
         </div>
       </div>
     </div>
