@@ -53,7 +53,7 @@ const ViewDetails = () => {
               <span><MapPinIcon className="h-6 w-6" /></span>
               <strong>Address:</strong> {detail.address}
             </p>
-            <button className="btn btn-primary mt-5">Apply Now</button>
+            <button className="btn btn-primary font-bold capitalize mt-5">Apply Now</button>
           </div>
         </div>
       </div>

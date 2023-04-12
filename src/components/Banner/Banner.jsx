@@ -14,37 +14,13 @@ const Banner = () => {
           information you need. Its your future. Come find it. Manage all
           <br></br> your job application from start to finish.
         </p>
-        <button className="btn btn-primary">Get Started</button>
+        <button className="btn btn-primary font-bold capitalize">Get Started</button>
       </div>
       <div>
-        <img
-          className="w-full"
-          src={bannerPic} alt=""
-        />
+        <img className="w-full" src={bannerPic} alt=""/>
       </div>
     </div>
   );
 };
 
 export default Banner;
-
-      /*  
-        <div className="w-10/12 mx-auto hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={bannerPic} className="max-w-sm" />
-        <div>
-          <h1 className="text-7xl font-bold">
-            One Step <br /> 
-            Closer To Your <br /> 
-            <span className='text-primary'>Dream Job</span>
-          </h1>
-          <p className="py-6">
-            Explore thousands of job opportunities with all the <br />
-            information you need. Its your future. Come find it. Manage all <br /> 
-            your job application from start to finish.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
-        </div>
-      </div>
-    </div>
-      */

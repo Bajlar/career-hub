@@ -27,12 +27,10 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-primary">Star Applying</button>
+        <button className="btn btn-primary font-bold capitalize">Star Applying</button>
       </div>
     </div>
   );
 };
 
 export default Header;
-
-//  bg-base-100

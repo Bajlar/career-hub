@@ -14,8 +14,8 @@ const SingleFeature = ({feature}) => {
         <h2 className="card-title">{job_name}</h2>
         <p>{job_title}</p>
         <div className='flex gap-3'>
-          <button className="btn btn-outline btn-primary">Remote</button>
-          <button className="btn btn-outline btn-primary">Full Time</button>
+          <button className="btn btn-outline btn-primary font-bold capitalize">Remote</button>
+          <button className="btn btn-outline btn-primary font-bold capitalize">Full Time</button>
         </div>
         <div className="flex gap-6">
           <div className="flex">
@@ -27,8 +27,8 @@ const SingleFeature = ({feature}) => {
             <p>Salary: {salary}</p>
           </div>
         </div>
-        <div className="card-actions">
-          <Link to={`/job/${id}`}><button className="btn btn-primary">View Details</button></Link>
+        <div className="card-actions mt-5">
+          <Link to={`/job/${id}`}><button className="btn btn-primary font-bold capitalize">View Details</button></Link>
         </div>
       </div>
     </div>

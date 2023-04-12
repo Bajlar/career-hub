@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div className='footerSection grid md:flex justify-between px-20'>
         <p className='pt-[50px] pb-[100px] font-semibold text-sm text-white'>@2023 JobConnect. All Rights Reserved</p>
-        <p className='pt-[50px] pb-[100px] font-semibold text-sm text-white'>Powered by <span className='font-bold'>ITE Carrier</span></p>
+        <p className='pt-[50px] pb-[100px] font-semibold text-sm text-white'>Powered by <span className='font-bold'>Start Carrier</span></p>
       </div>
     </div>  
   );

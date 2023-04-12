@@ -29,7 +29,7 @@ const FeaturesJob = () => {
       <div className="text-center">
         {
           !showAll && (
-            <button onClick={handleSeeMore} className="btn btn-primary mt-8">See All Jobs</button>
+            <button onClick={handleSeeMore} className="btn btn-primary font-bold capitalize mt-8">See All Jobs</button>
           )
         }
       </div>
