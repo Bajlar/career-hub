@@ -29,7 +29,7 @@ const ViewDetails = () => {
             <hr />
             <p className='mb-2 flex gap-2'> 
               <span><CurrencyDollarIcon className="h-6 w-6" /></span> 
-              <strong>Salary:</strong> {detail.salary}
+              <strong>Salary:</strong> {detail.salary} (Per Month)
             </p>
 
             <p className='mb-2 flex gap-2'>
